@@ -54,14 +54,14 @@ function mail(to = mailto) {
   var transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-      user: sender's email,
-      pass: password
+      // user: sender's email,
+      // pass: password
     }
   });
 
   var mailOptions = {
-    from: sender's email,
-    to,
+    // from: sender's email,
+    // to,
     subject: 'Slots are available',
     text: 'Hurry!!!!!!'
   };
